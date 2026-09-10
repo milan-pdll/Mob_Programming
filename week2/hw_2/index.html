@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Report card</h1>
+    <div id="container">
+        <div id="subject">
+            <input id="sub1" type="text" placeholder="sub_name">
+            <input id="sub2" type="text" placeholder="sub_name">
+            <input id="sub3" type="text" placeholder="sub_name">
+            <input id="sub4" type="text" placeholder="sub_name">
+            <input id="sub5" type="text" placeholder="sub_name">
+            <input id="sub6" type="text" placeholder="sub_name">
+            <input id="sub7" type="text" placeholder="sub_name">
+            <input id="sub8" type="text" placeholder="sub_name">
+        </div>
+
+        <div id="marks">
+            <input id="sub1_mark" type="number" min="1" max="100" placeholder="marks">
+            <input id="sub2_mark" type="number" min="1" max="100" placeholder="marks">
+            <input id="sub3_mark" type="number" min="1" max="100" placeholder="marks">
+            <input id="sub4_mark" type="number" min="1" max="100" placeholder="marks">
+            <input id="sub5_mark" type="number" min="1" max="100" placeholder="marks">
+            <input id="sub6_mark" type="number" min="1" max="100" placeholder="marks">
+            <input id="sub7_mark" type="number" min="1" max="100" placeholder="marks">
+            <input id="sub8_mark" type="number" min="1" max="100" placeholder="marks">
+        </div>
+        <button id="calculateButton" type="button" onclick="calculateMarks()">Get result</button>
+        <p id="total_mark" role="status"></p>
+        <p id="status"> </p>
+    </div>
+</body>
+</html>

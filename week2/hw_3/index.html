@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script src="script.js"></script>
+</head>
+<body>
+    <div id="container">
+        <form action="/submit-data" method="POST" onsubmit="event.preventDefault()">
+            <input id="num1" type="number" placeholder="num1" >
+            <input id="num2" type="number" placeholder="num2" >
+            <button id="sum" type="button" onclick="calculator('sum')">Sum</button>
+            <button id="sub" type="button" onclick="calculator('subtract')">Subtract</button>
+            <button id="mul" type="button" onclick="calculator('multiply')">Multiply</button>
+            <p id="result"></p>
+        </form>
+    </div>
+</body>
+</html>
