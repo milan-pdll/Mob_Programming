@@ -1,0 +1,60 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    font-family: Arial, sans-serif;
+}
+
+#outer_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.poster-card {
+    width: 350px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+    background: #f8f4e8;
+    border: 40px solid navy;
+}
+
+.title {
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+    color: orange;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+#qr {
+    display: none;
+    width: 200px;
+    height: 200px;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    border: 0;
+    background: #20251f;
+    color: #f8f4e8;
+    cursor: pointer;
+    font-weight: bold;
+}
+
