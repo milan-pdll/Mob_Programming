@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Profile Demo</title>
+</head>
+<body>
+    <div>
+        <section id="profile-card">
+            <h1 id="student-name">Milan Paudel</h1>
+            <div id="profile-photo" role="img" aria-label="Profile photo">MP</div>
+            <p id="student-bio">Bio: I am learning jQuery.</p>
+            <ul id="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+            <label for="nickname-input">Nickname</label>
+            <input id="nickname-input" type="text" placeholder="Type a nickname">
+        </section>
+
+        <section class="controls">
+            <h2>Get &amp; Set</h2>
+            <button id="show-name">Show Name</button>
+            <button id="change-name">Change Name</button>
+            <button id="show-bio">Show Bio</button>
+            <button id="get-input">Get Input</button>
+            <button id="set-input">Set Input</button>
+
+            <h2>CSS Classes</h2>
+            <button id="highlight-card">Highlight Card</button>
+            <button id="remove-highlight">Remove Highlight</button>
+            <button id="toggle-dark-mode">Toggle Dark Mode</button>
+            <button id="toggle-rounded">Toggle Rounded</button>
+
+            <h2>CSS Method</h2>
+            <button id="red-background">Red Background</button>
+            <button id="reset-background">Reset Background</button>
+
+            <h2>Hide, Show &amp; Fade</h2>
+            <button id="hide-photo">Hide Photo</button>
+            <button id="show-photo">Show Photo</button>
+            <button id="toggle-bio">Toggle Bio</button>
+            <button id="fade-out-card">Fade Out Card</button>
+            <button id="fade-in-card">Fade In Card</button>
+            <button id="fade-card">Fade to 50%</button>
+
+            <h2>Slide &amp; Animate</h2>
+            <button id="slide-up-skills">Slide Up Skills</button>
+            <button id="slide-down-skills">Slide Down Skills</button>
+            <button id="slide-toggle-skills">Slide Toggle Skills</button>
+            <button id="animate-card">Animate Card</button>
+        </section>
+
+        <p id="output" aria-live="polite"></p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
