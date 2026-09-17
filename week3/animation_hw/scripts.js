@@ -1,0 +1,9 @@
+$(document).ready(function(){
+  $("#btn").click(function(){
+    $("#animation-container")
+      .animate({top:"500px"},700)
+      .animate({left:"900px"},700)
+      .animate({top:"0px"},700)
+      .animate({left:"0px"},700);
+  });
+});
